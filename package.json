@@ -14,7 +14,6 @@
     "prettier": "prettier --write '**/**.{ts,js,tsx}' '*.{json,md,yml}'",
     "start": "next start",
     "update-slugs": "ts-node scripts/updateSlugs.ts",
-    "stop-only": "stop-only --folder cypress/integration",
     "test:unit": "mocha -r ts-node/register -r tsconfig-paths/register 'tests/**/*.ts'",
     "types": "tsc --noEmit"
   },
@@ -47,7 +46,6 @@
     "@types/react": "^17.0.39",
     "autoprefixer": "^10.4.2",
     "chai": "^4.3.6",
-    "cypress": "^10.5.0",
     "eslint": "^8.10.0",
     "eslint-config-next": "^12.1.0",
     "eslint-config-prettier": "^8.5.0",
